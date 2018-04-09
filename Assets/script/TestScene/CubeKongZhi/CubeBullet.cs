@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CubeBullet : MonoBehaviour {
-
+    public int MyPower = 10;
     public float thrust = 0.06f;
 
     Vector3 MyTargetPos;
