@@ -14,17 +14,17 @@ Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicD
 Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.141 seconds
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.647174 ms
+UnloadTime: 0.677759 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: a3c -> priority: 1 
-  Thread -> id: 5db0 -> priority: 1 
+  Thread -> id: 35a0 -> priority: 1 
+  Thread -> id: 2c6c -> priority: 1 
 Initialize engine version: 5.4.3f1 (01f4c123905a)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -41,32 +41,90 @@ Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicD
 Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
+- Completed reload, in  0.046 seconds
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.624519 ms
+UnloadTime: 0.694372 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 264c -> priority: 1 
-  Thread -> id: 45a8 -> priority: 1 
- Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
-  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0  ReceiveCallback Exception System.ObjectDisposedException: The object was used after being disposed.
-  at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
-  at Assets.TcpClient.ReceiveCallback (IAsyncResult ar) [0x00000] in <filename unknown>:0 
+  Thread -> id: 4a1c -> priority: 1 
+  Thread -> id: 398 -> priority: 1 
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980M (ID=0x13d7)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.286798 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 47c -> priority: 1 
+  Thread -> id: 3150 -> priority: 1 
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980M (ID=0x13d7)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\WorkPlace\UnityWorkPlace\TestMultiPlayerWith_KunGe\PublicData\TestMultiPlayerInSameTop\testP_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 0.621499 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2c88 -> priority: 1 
+  Thread -> id: 22e4 -> priority: 1 
+Look rotation viewing vector is zero
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
+(Filename:  Line: 82)
 
  Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
   at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
  Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
-  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0  ReceiveCallback Exception System.ObjectDisposedException: The object was used after being disposed.
-  at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
-  at Assets.TcpClient.ReceiveCallback (IAsyncResult ar) [0x00000] in <filename unknown>:0 
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
+ Send Exception  System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.TcpClient.Send (System.Byte[] data) [0x00000] in <filename unknown>:0 
